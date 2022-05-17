@@ -36,11 +36,13 @@ My personal portfolio <a href="http://soumya-jit.tech/" target="_blank">soumyaji
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
+<!-- - Node.js -->
+<!-- - Express.js -->
 - CSS3
-- VsCode
-- Vercel
+- Material UI
+- Bootstrap 5
+<!-- - VsCode -->
+<!-- - Vercel -->
 
 <!-- ## Features
 
