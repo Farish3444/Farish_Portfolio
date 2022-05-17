@@ -13,8 +13,9 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import FarishLogo from '../Assets/logo.svg';
 import { CgFileDocument } from "react-icons/cg";
+import {ImPriceTag} from 'react-icons/im';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -39,7 +40,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -92,7 +93,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://blogs.soumya-jit.tech/"
                 target="_blank"
@@ -100,18 +101,27 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
-              <Button
+              {/* <Button
                 href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
+                <AiFillStar style={{ fontSize: "1.1em" }} /> */}
+              {/* </Button> */}
             </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link as={Link} to='/pricing'>
+              <ImPriceTag />
+            &nbsp;
+                Freelance
+                Pricing
+            </Nav.Link>
+          </Nav.Item>       
           </Nav>
         </Navbar.Collapse>
       </Container>
