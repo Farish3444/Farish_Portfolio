@@ -33,14 +33,14 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 My personal portfolio <a href="http://soumya-jit.tech/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/> -->
 
-This project was built using these technologies.
-
-- React.js
+<!-- This project was built using these technologies.
+ -->
+<!-- - React.js -->
 <!-- - Node.js -->
 <!-- - Express.js -->
-- CSS3
-- Material UI
-- Bootstrap 5
+<!-- - CSS3 -->
+<!-- - Material UI -->
+<!-- - Bootstrap 5 -->
 <!-- - VsCode -->
 <!-- - Vercel -->
 
