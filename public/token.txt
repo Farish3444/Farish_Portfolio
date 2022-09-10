@@ -1,1 +1,5 @@
-gitHub PAT = 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
+<!-- git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git -->
+
+git push https://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@github.com/Farish3444/Farish_Portfolio.git
+
+<!-- gitHub PAT = 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 -->
