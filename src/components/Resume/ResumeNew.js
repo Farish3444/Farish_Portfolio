@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink = 
   // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/RESUME_2022.pdf";
+  "https://raw.githubusercontent.com/Farish3444/Farish_Portfolio/tree/main/src/Assets/RESUME_2022.pdf";
 
 
 function ResumeNew() {
