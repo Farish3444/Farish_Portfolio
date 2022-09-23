@@ -8,10 +8,13 @@ import { Document, Page, pdfjs } from "react-pdf";
 import '../../App.css'
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+// import  Resume  from '../../Assets/../Assets/RESUME_2022.pdf';
 
 const resumeLink = 
-  // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
-  "https://raw.githubusercontent.com/Farish3444/Farish_Portfolio/tree/main/src/Assets/RESUME_2022.pdf";
+// "https://github.com/Farish3444/Farish_Portfolio/blob/main/src/Assets/RESUME_2022.pdf"
+  // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf"
+  "https://raw.githubusercontent.com/Farish3444/Farish_Portfolio/blob/main/src/Assets/RESUME_2022.pdf";
+
 
 
 function ResumeNew() {
