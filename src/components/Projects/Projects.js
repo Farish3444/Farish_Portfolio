@@ -11,6 +11,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Billing from '../../Assets/Projects/Billingimage.jpg';
 
 function Projects() {
   return (
@@ -50,10 +51,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sport}
+              imgPath={Billing}
               isBlog={false}
-              title="PlayHere"
-              description={textpara.PlayHere}
+              title="ElizzElite"
+              description={textpara.ElizzElite}
             />
           </Col>
 
