@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import monitor from '../../Assets/vertical-screen.jpg';
+import Myphoto from '../../Assets/setupic.jpg';
 
 function Home2() {
   return (
@@ -57,7 +58,7 @@ function Home2() {
             {/* <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt> */}
-            <img src={monitor} className='img-fluid' />
+            <img src={Myphoto} className='img-fluid' />
           </Col>
         </Row>
         <Row>
